@@ -1,0 +1,19 @@
+.heading{
+    color:white;
+    background-color:rgb(255, 0, 0);
+    width:300px;
+    font-family:Algerian;
+}
+
+canvas{
+    animation-name:Durva;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    border-style:solid;
+    border-color:black;
+}
+
+@keyframes Durva{
+    from{box-shadow:20px 20px 20px red;}
+    to{box-shadow:15px 15px 20px orange;}
+}
